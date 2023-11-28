@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department - University of Ghana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('images/balme library.jpg') center/cover no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #logo {
+            max-width: 31%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 5;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            width: 100%;
+            margin-top: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 70px;
+            z-index: 0;
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            position: relative;
+            z-index: 1;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .menu-button {
+            display: none;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+        }
+
+        .menu-icon {
+            display: block;
+            background: #333;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .menu {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            position: fixed;
+            top: 70px;
+            right: 0;
+            background-color: #333;
+            width: 100%;
+            text-align: right;
+            display: none;
+            z-index: 1;
+        }
+
+        .menu a {
+            padding: 14px 16px;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        .page-container {
+            text-align: center;
+            margin-top: 367px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            position: relative;
+            z-index: 0;
+        }
+
+        .page h2 {
+            color: #333;
+        }
+
+        .page p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+        nav {
+            text-align: right;
+            margin: 10px;
+        }
+
+        nav label {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        nav li {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Your logo and navigation bar -->
+        <img id="logo" src="images/Correct UG logo.jpg" alt="Department Logo">
+        <div class="navbar">
+            <a href="about.html">About</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="resources.html">Resources</a>
+            <a href="events.html">Events</a>
+            <a href="contact.html">Contact</a>
+            <a href="admissions.html">Admission</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="research.html">Research</a>
+            <a href="alumni.html">Alumni</a>
+            <a href="home.html">Home</a>
+        </div>
+    </header>
+
+    <div class="page-container">
+        <div id="catalog" class="page">
+            <!-- Catalog page content -->
+            <h2>Our Catalog</h2>
+            <p>Explore our catalog of courses and programs offered by the Computer Science Department at the University of Ghana.</p>
+    
+            <h3>Undergraduate Courses</h3>
+            <ul>
+                <li>
+                    <strong>DCIT101:</strong> Introduction to Computer Science
+                    <p>An introduction to the fundamental concepts of computer science, including programming, algorithms, and problem-solving.</p>
+                </li>
+                <li>
+                    <strong>DCIT201:</strong> Data Structures and Algorithms
+                    <p>Exploration of data structures and algorithm design, with a focus on efficiency and problem-solving.</p>
+                </li>
+                <li>
+                    <strong>DCIT301:</strong> Database Management Systems
+                    <p>Study of database concepts, design, and implementation, including SQL and relational database management.</p>
+                </li>
+                <li>
+                    <strong>DCIT401:</strong> Computer Networks
+                    <p>An overview of computer networks, protocols, and communication technologies.</p>
+                </li>
+                <li>
+                    <strong>DCIT501:</strong> Software Engineering
+                    <p>Principles and practices of software development, including software design, testing, and project management.</p>
+                </li>
+            </ul>
+    
+            <h3>Graduate Courses</h3>
+            <ul>
+                <li>
+                    <strong>DCIT601:</strong> Advanced Algorithms
+                    <p>Advanced topiDCIT in algorithm design and analysis, including dynamic programming, greedy algorithms, and complexity theory.</p>
+                </li>
+                <li>
+                    <strong>DCIT701:</strong> Distributed Systems
+                    <p>Exploration of distributed computing systems, including distributed algorithms, fault tolerance, and scalability.</p>
+                </li>
+                <li>
+                    <strong>DCIT801:</strong> Artificial Intelligence
+                    <p>Introduction to artificial intelligence, covering topiDCIT such as machine learning, natural language processing, and expert systems.</p>
+                </li>
+                <li>
+                    <strong>DCIT901:</strong> Machine Learning
+                    <p>Study of machine learning algorithms, data mining, and applications in various domains.</p>
+                </li>
+                <li>
+                    <strong>DCIT1001:</strong> Big Data Analytics
+                    <p>Exploration of big data technologies, analytics techniques, and applications in real-world scenarios.</p>
+                </li>
+            </ul>
+    
+            <!-- Add more content as needed -->
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2023 Computer Science Department, University of Ghana</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
